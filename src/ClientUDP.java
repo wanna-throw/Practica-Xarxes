@@ -6,7 +6,7 @@ public class ClientUDP {
 
     public static void main(String[] args) {
         final int PORT = 9876; // Mateix port que el servidor
-        final String IP_SERVIDOR = "192.168.1.100"; // Canvia-ho per la IP real del servidor a la xarxa local
+        final String IP_SERVIDOR = "10.112.226.1"; 
 
         try {
             DatagramSocket socketClient = new DatagramSocket();
